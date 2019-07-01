@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #9999e6;
+	color: white;
+	font-family: Annie Use Your Telescope; 
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+
+}
+
+.menu {
+	height: 100px;
+	background-color: #5900b3;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.menu h1 {
+	background-color: #5900b3; 
+}
+
+.sidebar {
+	height: 300px;
+	width: 200px;
+	background-color: #ff6666;
+	float: left;
+
+}
+
+.sidebar p {
+	background-color: #ff6666; 
+}
+
+.content {
+	height: 500px;
+	width: 650px;
+	padding: 20px;
+	background-color: #00b359;
+	float: left;
+}
+
+.content p {
+	background-color: #00b359;	
+}
+
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	border: 3px solid  #d9ff66;
+	background-color: #5900b3;
+}
+
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.columns {
+	/*background-color: #b2d6ff;*/
+	height: 160px;
+	width: 30%;
+	margin: 20px 1.3%;
+	float: left;
+	overflow: hidden;
+	/*overflow: scroll;*/
+}
+
+.columns1 {
+	background-color: #cc99ff;
+
+}
+
+.columns2 {
+	background-color: #66ff66
+}
+
+.columns3 {
+	background-color: #ff6600
+
+}
+
+.columns4 {
+	background-color: #66ffff
+}
+
+.columns5 {
+	background-color: #ff6666
+}
+
+.columns6 {
+	background-color: #99ff33
+}
+
+
+
+.avatar{
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #d6e9fe;*/
+	background-image: url(../images/man.svg);
+	background-position: center;
+
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+/*.clear {
+	overflow: auto;
+}*/
+/*.clear {
+	clear: both;
+}*/
